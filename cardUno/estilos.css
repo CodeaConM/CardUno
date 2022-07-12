@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Livvic', sans-serif;
+}
+
+img{
+   width: 250px;
+   height: 180px;
+   border-top-left-radius: 10%;
+}
+
+.carta{
+   width: 800px;
+   height: 255px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+
+.carta .persona{
+   background-color: #B09B71;
+   border-bottom-left-radius: 10%;
+   border-top-left-radius: 20%;
+   height: 100%;
+   border-right:5px solid #87805E;
+}
+
+.carta .persona .nombre{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 60px;
+}
+
+.carta .persona p{
+   color: #EDDFB3;
+   font-size: 25px;
+   font-weight: 800;
+}
+
+.carta .descripcion{
+   background-color: #EDDFB3;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   /* border-bottom-right-radius: 10%;
+   border-top-right-radius:8%; */
+   -webkit-box-shadow: 10px 10px 5px -3px rgba(227,211,227,1);
+-moz-box-shadow: 10px 10px 5px -3px rgba(227,211,227,1);
+box-shadow: 10px 10px 5px -3px rgba(227,211,227,1);
+}
+
+.carta .descripcion p{
+   color: #87805E;
+   padding: 20px;
+   font-size: 22px;
+}
